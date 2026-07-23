@@ -6,7 +6,7 @@
     "email": "contacto@osmar-lopez.dev",
     "phone": "+52 5587272840",
     "url": "https://osmar-lopez.dev",
-    "summary": "+5 años de experiencia creando soluciones web robustas, rápidas con enfoque en escalabilidad, arquitectura y experiencia de usuario. Experto en en Laravel, TypeScript y desarrollo con JavaScript moderno.",
+    "summary": "Desarrollador Full Stack con +5 años de experiencia en el diseño e implementación de sistemas escalables: monolitos optimizados, microservicios, APIs REST y aplicaciones híbridas. Enfocado en integración de sistemas y rendimiento, bajo metodologías ágiles (SCRUM) y prácticas DevOps.",
     "theme": "light",
     "location": {
       "address": "",
@@ -30,66 +30,108 @@
   },
   "work": [
     {
+      "name": "INFOTEC",
+      "position": "Desarrollador Full Stack",
+      "location_type": "Remoto",
+      "location": "México",
+      "url": "https://www.infotec.mx/",
+      "startDate": "2026-04-01",
+      "endDate": null,
+      "skills": [
+        "NET",
+        "Oracle",
+        "Angular",
+        "TypeScript",
+        "Docker",
+        "Git",
+        "Gitlab"
+      ],
+      "internalProjects": [
+        {
+          "name": "Sistema de Liquidación y Preliquidación de Telepeaje",
+          "url": "https://www.gob.mx/capufe",
+          "highlights": [
+            "Ingeniería inversa de sistema legacy (.NET / SQL Server) para reconstrucción de lógica de negocio, reglas operativas y modelo de datos.",
+            "Diseño del modelo de datos relacional en Oracle con arquitectura schema-per-microservicio.",
+            "Especificación de contratos de integración con el sistema externo de carril: mapeo de equivalencias y catálogos de traducción.",
+            "Arquitectura de microfrontends con Feature-Sliced Design en Angular 21 standalone (zoneless, Signals).",
+            "Design System institucional: componentes reutilizables, tokens de color corporativos y fuente auto-hospedada.",
+            "Configuración de entornos de contenedores con hot reload y pipelines CI/CD en GitLab.",
+            "Consolidación del catálogo de reglas de negocio en formato verificable y elaboración de documentación técnica de arquitectura, modelo de datos, integración y guías de desarrollo."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "INFOTEC",
+      "position": "Desarrollador Full Stack",
+      "location_type": "Remoto",
+      "location": "México",
+      "url": "https://www.infotec.mx/",
+      "startDate": "2026-04-01",
+      "endDate": "2026-07-01",
+      "summary": "Plataforma nacional en gob.mx para el registro y reinscripción de aspirantes a Educación Media Superior, desarrollada para la ATDT en colaboración con la SEP/SEMS (proyecto en paralelo con CAPUFE).",
+      "skills": [
+        "Laravel",
+        "Php",
+        "Livewire",
+        "PostgreSQL",
+        "Figma",
+        "Docker",
+        "Git",
+        "Gitlab"
+      ],
+      "internalProjects": [
+        {
+          "name": "Sistema de Registro al Bachillerato Nacional (SIREMS)",
+          "highlights": [
+            "Desarrollo backend en Laravel 12 (PHP 8.4) y Livewire 3 para el flujo de registro y reinscripción de aspirantes a nivel nacional.",
+            "Integración con Web Service SIGED/SEP para consulta de antecedentes académicos vía CURP y folio de certificado.",
+            "Flujo de selección de oferta educativa: filtros en cascada, selección única y persistencia contra el modelo oficial.",
+            "Implementación de guardado transaccional (DB transactions) en formularios críticos y modelado de esquema en PostgreSQL 17 + PostGIS.",
+            "Corrección de bugs de diseño/UI homologando estilos contra especificaciones de Figma (UI Kit Agencia).",
+            "Ambiente containerizado (Docker + Caddy como reverse proxy) con flujo Git/GitLab por historia de usuario y defecto.",
+            "Integración de identidad y autenticación mediante SSO con Llave MX."
+          ]
+        }
+      ]
+    },
+    {
       "name": "Axity",
       "position": "Consultor Senior en AT&T México",
       "location_type": "Remoto",
       "location": "México",
       "url": "https://axity.com/",
-      "startDate": "2025-11-01",
-      "endDate": null,
-      "summary": "Participación en el desarrollo de aplicaciones empresariales para AT&T México, enfocadas en soportar procesos críticos de negocio bajo una arquitectura enterprise, aplicando buenas prácticas de calidad, seguridad y desarrollo ágil.",
-      "responsibilities": [
-        "Diseñar, desarrollar e implementar aplicaciones empresariales para procesos críticos de negocio.",
-        "Desarrollar frontend con Angular 10 siguiendo buenas prácticas y estándares corporativos.",
-        "Desarrollar backend con Java y Spring Boot bajo arquitectura de microservicios.",
-        "Refactorizar módulos existentes para mejorar mantenibilidad y rendimiento.",
-        "Resolver bugs productivos y dar soporte a módulos en producción.",
-        "Integrar servicios y bases de datos empresariales.",
-        "Trabajar en un entorno ágil colaborando con equipos multidisciplinarios.",
-        "Aplicar estándares de calidad y seguridad apoyados en Sonar y pipelines existentes.",
-        "Trabajar con Docker para entornos de desarrollo y despliegue."
-      ],
-      "achievements": [
-        "Participación activa en arquitectura enterprise full stack.",
-        "Estabilización de módulos productivos mediante corrección de bugs críticos.",
-        "Colaboración efectiva en proyectos de alto impacto para ATT México."
-      ],
+      "startDate": "2025-09-01",
+      "endDate": "2026-04-01",
+      "summary": "Aplicaciones empresariales para procesos críticos bajo arquitectura enterprise de microservicios; gestión de incidentes y cambios vía ServiceNow.",
       "skills": [
-        "TypeScript",
         "Angular",
         "Java",
         "SpringBoot",
-        "Microservicios",
-        "Arquitectura Enterprise",
         "Docker",
         "Kubernetes",
         "Git",
-        "SonarQube",
-        "CI/CD",
-        "Node",
-        "Weblogic",
-        "Oracle"
+        "GitHub"
       ],
       "internalProjects": [
         {
-          "name": "ATT México – ASCC",
+          "name": "ASCC",
           "highlights": [
-            "Desarrollo frontend en Angular.",
-            "Desarrollo backend en Java con Spring Boot.",
-            "Refactorización de módulos existentes.",
-            "Corrección de bugs en producción.",
-            "Trabajo bajo arquitectura de microservicios enterprise.",
-            "Uso de pipelines CI/CD ya establecidos.",
-            "Colaboración con equipos multidisciplinarios."
+            "CRM para la fuerza de ventas en puntos de venta: gestión de cuentas, venta de planes y activación de líneas.",
+            "Desarrollo full stack del sistema: frontend en Angular y backend en Java con Spring Boot.",
+            "Refactorización de módulos existentes para mejorar mantenibilidad y rendimiento.",
+            "Diagnóstico y corrección de bugs en producción sobre flujos críticos de venta y activación.",
+            "Despliegue en entornos corporativos con Docker y WebLogic, mediante pipelines CI/CD con GitHub Actions."
           ]
         },
         {
-          "name": "ATT México – Identidad Biometricos SIM",
+          "name": "Identidad Biométrica SIM",
           "highlights": [
-            "Desarrollo microservicios en Java con Spring Boot para la comunicación de Lambdas KSD.",
-            "Trabajo bajo arquitectura de microservicios enterprise basada en AWS, Kubernetes y docker.",
-            "Uso de pipelines CI/CD ya establecidos.",
-            "Colaboración con equipos multidisciplinarios."
+            "Desarrollo de microservicios en Java con Spring Boot para validación de identidad biométrica de SIM, con comunicación hacia Lambdas KSD.",
+            "Integración de servicios en AWS, Kubernetes y Docker, conectados a pipelines CI/CD para despliegue continuo.",
+            "Certificación de seguridad ante el área perimetral: análisis de reportes de vulnerabilidades (Fortify), remediación de hallazgos medios y altos, y actualización de dependencias vulnerables hasta liberación a producción.",
+            "Configuración de healthchecks y observabilidad con Spring Boot Actuator e integración con Prometheus, más monitoreo aplicativo con interfaz visual."
           ]
         }
       ]
@@ -102,144 +144,72 @@
       "url": "https://b-process.mx/",
       "startDate": "2024-05-01",
       "endDate": "2025-09-01",
-      "summary": "Desarrollo y mantenimiento del Sistema de Información Penitenciario Federal. Participación activa en análisis, diseño e implementación de soluciones modulares, integración de biometría y microservicios, así como mejora continua basada en estándares de calidad de software.",
-      "responsibilities": [
-        "Refactorizar el sistema monolítico a una arquitectura de microservicios (micro-backends y micro-fronts).",
-        "Implementar arquitectura Repositorio–Servicios–Transformadores para escalabilidad modular.",
-        "Centralizar modelos de datos compartidos en paquetes independientes.",
-        "Aplicar patrón Feature-Sliced Design en Angular para estructura mantenible.",
-        "Diseñar e implementar APIs REST en PHP y TypeScript para frontend web y app móvil.",
-        "Desarrollar app móvil institucional en Angular 18 + Ionic para biometría penitenciaria.",
-        "Mantener y rediseñar módulos con Laravel y Angular optimizando UX.",
-        "Integrar estaciones biométricas .NET al sistema vía web.",
-        "Aplicar estándares de calidad con SonarQube, bloqueando PRs por baja cobertura.",
-        "Desplegar microservicios y assets front en servidores con Ansible.",
-        "Implementar control de acceso basado en roles (RBAC).",
-        "Normalizar bases de datos a segunda forma normal para integridad y rendimiento."
-      ],
-      "achievements": [
-        "Migración exitosa a microservicios desacoplados y microfrontends.",
-        "Optimización de UX móvil con Angular + Ionic.",
-        "Automatización de CI/CD con GitLab Pipelines.",
-        "Establecimiento de arquitectura limpia y mantenible.",
-        "Integración funcional de sistemas biométricos en producción."
-      ],
       "skills": [
-        "Laravel",
-        "Angular",
-        "Vuejs",
-        "Ionic",
+        "Php",
         "TypeScript",
-        "PHP",
-        "Node",
+        "Angular",
+        "Ionic",
         "MySQL",
-        "Git",
+        "PostgreSQL",
         "SonarQube",
-        "CI/CD",
         "Docker",
-        "Figma",
         "NET",
-        "Python",
-        "Arquitectura de Software",
-        "Microservicios",
-        "DevOps",
-        "Ansible"
+        "Node"
       ],
       "internalProjects": [
         {
-          "name": "Sistema de Información Penitenciario Federal",
+          "name": "Sistema de Información Penitenciario Federal (SIPF)",
           "highlights": [
-            "Reestructuración completa hacia microservicios y microfronts.",
-            "Desarrollo de APIs seguras con TypeScript y PHP.",
-            "Modelado y normalización de BD para eficiencia y consistencia.",
-            "Desarrollo de frontend biométrico móvil en Angular + Ionic.",
-            "Automatización de análisis estático con SonarQube en Docker.",
-            "Integración de biometría .NET a plataforma web.",
-            "Despliegue automatizado con Ansible y GitLab CI/CD.",
-            "Documentación técnica completa y estandarizada."
+            "Migración de sistema monolítico a microservicios (PHP, TypeScript, Angular, Ionic) con Feature-Sliced Design en frontend.",
+            "Desarrollo de APIs REST optimizadas para microfrontends y aplicación móvil híbrida, reduciendo tiempos de carga en un 30%.",
+            "Creación de aplicación híbrida (Angular 18 + Ionic) para tabletas biométricas operadas por personal penitenciario, incluyendo la comunicación con estaciones biométricas en .NET.",
+            "Implementación de control de acceso ARBAC y modelado de bases de datos MySQL y PostgreSQL.",
+            "Integración de SonarQube en Docker como quality gate, bloqueando PRs con errores críticos, y automatización de despliegues con Ansible."
           ]
         },
         {
-          "name": "Proyecto Tekton — Gestión del sistema de empadronamiento y entregas de apoyos",
+          "name": "Tekton — Sistema de Empadronamiento y Entregas",
           "highlights": [
-            "Entrevistas a usuarios y recopilación de requisitos.",
-            "Redacción de reglas de negocio.",
-            "Desarrollo de documentación técnica detallada y clara con JsDocs y compodoc.",
-            "Refactorización, mantenimiento y documentación de API para sistema SSR (Server-Side Rendering) en Node.js y Express.js.",
-            "Implementación de procesos de empadronamiento y entregas con MySQL 8 y mysql-node.",
-            "Desarrollo y mantenimiento de frontend en Angular 10 para la administración y consulta de datos.",
-            "Optimización de consultas y endpoints para mejorar tiempos de respuesta del sistema."
+            "Refactorización, mantenimiento y documentación de API SSR desarrollada con Node.js y Express.js.",
+            "Implementación de procesos de empadronamiento y gestión de entregas con MySQL 8.",
+            "Desarrollo y mantenimiento de frontend administrativo en Angular 10."
           ]
         }
       ]
     },
     {
       "name": "HD Latinoamérica",
-      "position": "Desarrollador Full Stack",
+      "position": "Desarrollador Web",
       "location_type": "Híbrido",
       "location": "México",
       "url": "https://www.hdlatinoamerica.com/",
       "startDate": "2023-01-01",
       "endDate": "2024-04-30",
-      "summary": "Diseño, desarrollo y mantenimiento de sistemas web robustos y escalables, con foco en la experiencia del usuario, la eficiencia operativa y la arquitectura multiusuario.",
-      "responsibilities": [
-        "Redacción de reglas de negocio para múltiples módulos.",
-        "Diseño de interfaces atractivas y funcionales en Figma.",
-        "Implementación de funcionalidades con Laravel, Livewire y Vue.js.",
-        "Mantenimiento, rediseño y modernización de plataformas web existentes.",
-        "Normalización de bases de datos y estructuración de sistemas monolíticos.",
-        "Colaboración directa con usuarios y equipos para entender y documentar requerimientos funcionales y técnicos."
-      ],
-      "achievements": [
-        "Integración de APIs y microservicios para automatizar procesos.",
-        "Reducción significativa de la carga en JavaScript gracias al uso eficiente de Livewire.",
-        "Estandarización de documentación técnica que mejoró la mantenibilidad.",
-        "Soporte exitoso para múltiples clientes bajo arquitectura MultiTenancy.",
-        "Generación de reportes PDF y alertas en tiempo real sobre fallos del sistema."
-      ],
       "skills": [
         "Laravel",
-        "Vuejs",
         "Livewire",
-        "Python",
-        "Tailwind",
-        "Bootstrap",
-        "Figma",
+        "Vuejs",
         "MySQL",
-        "PostgreSQL",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Git",
-        "Arquitectura de software",
-        "Patrones de diseño"
+        "Python"
       ],
       "internalProjects": [
         {
           "name": "DATALUX",
           "url": "https://demo.datalux.com.mx/",
           "highlights": [
-            "Redacción de reglas de negocio.",
-            "Desarrollo con Laravel + Livewire para módulos dinámicos y Vue.js para componentes complejos.",
-            "Implementación de códigos QR para gestión de luminarias.",
-            "Mapas interactivos para ubicar y monitorizar luminarias en tiempo real.",
-            "Generación de reportes PDF/Excel y alertas en tiempo real.",
-            "Diseño de interfaces en Figma y pruebas de usabilidad.",
-            "Arquitectura MultiTenancy para múltiples clientes.",
-            "Corrección de bugs y mejoras continuas en producción."
+            "Desarrollo de módulos interactivos con Laravel Livewire y Vue.js.",
+            "Implementación de códigos QR para identificación y gestión de luminarias en campo.",
+            "Integración de mapas interactivos usando APIs de geolocalización.",
+            "Generación de reportes en PDF y Excel y notificaciones en tiempo real."
           ]
         },
         {
-          "name": "Sistema de Gestión Integral (SGI ISO)",
+          "name": "Sistema de Gestión Integral ISO",
           "highlights": [
-            "Entrevistas a usuarios y recopilación de requisitos.",
-            "Redacción de reglas de negocio.",
-            "Mantenimiento y rediseño de plataformas web con Laravel y Vue.js.",
-            "Integración de APIs y microservicios para mayor eficiencia.",
-            "Desarrollo de aplicaciones monolíticas con patrones de diseño.",
-            "Normalización de bases de datos hasta segunda forma normal.",
-            "Diseño de interfaces funcionales en Figma.",
-            "Documentación técnica detallada y clara."
+            "Desarrollo de plataforma web tipo repositorio documental (nube privada) para la gestión centralizada de documentación de normas ISO, con Laravel 9, Livewire 2 y MySQL.",
+            "Control de versiones de documentos y permisos de acceso por rol para auditorías y consulta interna.",
+            "Integración con la mesa de ayuda InvGate para vincular tickets y solicitudes con la documentación normativa.",
+            "Desarrollo de chatbot en Python con búsqueda semántica sobre documentos PDF y fuentes web para localizar la documentación relevante."
           ]
         }
       ]
@@ -250,7 +220,7 @@
       "location_type": "Presencial",
       "location": "México",
       "url": "https://antivirus-mexico.com/",
-      "startDate": "2022-04-01",
+      "startDate": "2021-04-01",
       "endDate": "2023-01-01",
       "summary": "Reingeniería y rediseño de sitios web, mantenimiento de plataformas en WordPress y desarrollo de soluciones personalizadas para el área de ventas y marketing.",
       "highlights": [
@@ -275,7 +245,7 @@
         "HTML",
         "CSS",
         "JavaScript",
-        "PHP",
+        "Php",
         "MySQL",
         "Laravel",
         "WordPress",
@@ -289,11 +259,11 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "Universidad Virtual del Estado de Guanajuato (UVEG)",
-      "url": "https://uveg.edu.mx/index.php/es/",
-      "area": "Ingeniería en Gestión de Proyectos",
+      "institution": "UNIVERSIDAD INNOVA",
+      "url": "https://www.innovauniversidad.edu.mx/",
+      "area": "LIC. SISTEMAS COMPUTACIONALES",
       "studyType": "Licenciatura",
-      "startDate": "2023-01-01",
+      "startDate": "2024-01-01",
       "score": "3.8",
       "courses": [
         "CS101 - Introduction to Computer Science",
@@ -310,6 +280,12 @@
     }
   ],
   "certificates": [
+    {
+      "name": "Prompt Engineering & Programming with OpenAI",
+      "date": "2026-03-16",
+      "issuer": "Columbia+",
+      "url": "https://badges.plus.columbia.edu/c4f02821-a1a5-43cf-bf61-61bad3634a05#acc.3Nmr1bdo"
+    },
     {
       "name": "Spring Framework 6 & Spring Boot 3 desde cero a experto",
       "date": "2025-09-22",
@@ -895,6 +871,18 @@
   ],
   "projects": [
     {
+      "name": "OpenMerch Engine",
+      "isActive": true,
+      "description": "Plataforma open-source y self-hosted de personalización visual de productos para ecommerce: editor de diseño en canvas, generación automática de archivos listos para producción y panel de administración multi-idioma.",
+      "highlights": [
+        "Editor visual en canvas con React + Konva.js: imágenes, texto, formas y cliparts",
+        "Generación de imágenes con IA (Pollinations.ai) y miles de cliparts vía Iconify",
+        "Motor de composición 2D con Sharp para exportar archivos de producción en PNG/SVG a 600 DPI",
+        "API REST en Fastify, jobs con BullMQ y panel admin en Mantine UI, todo self-hosted con Docker"
+      ],
+      "github": "https://github.com/osmaar/openmerch-engine"
+    },
+    {
       "name": "Portafolio Personal",
       "isActive": true,
       "description": "Sitio web personal desarrollado con Astro y TailwindCSS para mostrar mis servicios, proyectos y redirigir a mi CV imprimible.",
@@ -918,17 +906,6 @@
         "Animaciones suaves y estructura modular con SCSS"
       ],
       "url": "https://assertorabogados.com"
-    },
-    {
-      "name": "Plant Electric - Covestro México",
-      "description": "Aplicación interna desarrollada para Covestro México para gestionar la distribución de las cargas eléctricas existentes dentro de una planta de producción industrial. Construida con Vue 3, Inertia.js y Laravel 10.",
-      "highlights": [
-        "Interfaz SPA fluida con Vue 3 e Inertia.js para una experiencia de usuario eficiente",
-        "Gestión centralizada de datos de consumo eléctrico en diferentes generadores y áreas de la planta",
-        "Cálculos automatizados para optimizar la distribución de cargas y prevenir sobrecargas",
-        "Backend robusto con Laravel 10, enfocado en seguridad y mantenibilidad del sistema"
-      ],
-      "github": "https://github.com/0smarLP/plantElectric"
     },
     {
       "name": "Urban LED",
@@ -961,9 +938,7 @@
         "Arquitectura limpia basada en Repository, Service, Controller y Transformer (Fractal)",
         "Autenticación remota vía JWT validado contra backend central",
         "Integración de librerías como Maatwebsite Excel y FPDF/FPDI para generación de archivos",
-        "Estructura modular de rutas con middleware de seguridad aplicado a nivel global",
-        "Separación de modelos dentro de un paquete compartido para mantener el microservicio desacoplado",
-        "Código optimizado para despliegue rápido y mantenimiento sencillo en equipos grandes"
+        "Estructura modular de rutas con middleware de seguridad aplicado a nivel global"
       ],
       "github": "https://github.com/osmaar/lumen-core-microservice"
     }

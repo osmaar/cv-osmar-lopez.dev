@@ -17,7 +17,7 @@ import SwiftUI from "@/icons/swiftui.astro"
 import Kotlin from "@/icons/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
 import Laravel from "@/icons/Laravel.astro"
-import PHP from "@/icons/Php.astro"
+import Php from "@/icons/Php.astro"
 import WordPress from "@/icons/WordPress.astro"
 import Adobe from "@/icons/Adobe.astro"
 import Figma from "@/icons/Figma.astro"
@@ -31,7 +31,15 @@ import Angular from "@/icons/Angular.astro"
 import NET from "@/icons/Net.astro"
 import SonarQube from "@/icons/SonarQube.astro"
 import Ionic from "@/icons/Ionic.astro"
-import Docker from "@/icons/Docker.astro";
+import Docker from "@/icons/Docker.astro"
+import Java from "@/icons/Java.astro"
+import SpringBoot from "@/icons/SpringBoot.astro"
+import Gitlab from "@/icons/Gitlab.astro"
+import Jest from "@/icons/Jest.astro"
+import Jquery from "@/icons/Jquery.astro"
+import AstroJs from "@/icons/AstroJs.astro"
+import Linux from "@/icons/Linux.astro"
+import CodeIgnaiter from "@/icons/CodeIgniter.astro";
 
 
 const SKILLS_ICONS: Record<string, any> = {
@@ -50,7 +58,7 @@ const SKILLS_ICONS: Record<string, any> = {
   SwiftUI,
   Kotlin,
   Flutter,
-  PHP,
+  Php,
   Laravel,
   WordPress,
   Adobe,
@@ -65,7 +73,15 @@ const SKILLS_ICONS: Record<string, any> = {
   NET,
   SonarQube,
   Ionic,
-  Docker
+  Docker,
+  Java,
+  SpringBoot,
+  Gitlab,
+  Jest,
+  Jquery,
+  AstroJs,
+  Linux,
+  CodeIgnaiter
 }
 ---
 <Section className={Astro.props.className} title="Experiencia">
@@ -172,15 +188,18 @@ const SKILLS_ICONS: Record<string, any> = {
                   </div>
                 )}
                 </div>
-                
+                )}
+
+                {(responsibilities || achievements) && (
                 <button @click="expanded = ! expanded" class="print:hidden group/more w-fit cursor-pointer items-center justify-center gap-1.5 text-xs underline text-skin-muted transition-all hover:text-skin-base flex">
                   <span x-text="expanded ? 'Mostrar menos' : 'Mostrar más'">Mostrar más</span>
                   <svg class="w-4 h-4 group-hover/more:translate-y-0.5 duration-200 ease-out" :class="{ 'rotate-180': expanded }" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
                 </button>
+                )}
 
-
-                <ul class="flex print:hidden flex-wrap gap-2" aria-label="Technologies used">
-                  {skills && skills.map(skill => {
+                {skills && skills.length > 0 && (
+                <ul class="flex print:hidden flex-wrap gap-2 [&>li>svg]:size-4 [&>li>svg]:shrink-0" aria-label="Technologies used">
+                  {skills.map(skill => {
                     const iconName = skill === "Next.js" ? "Next" : skill
                     const Icon = SKILLS_ICONS[iconName]
                     return (
@@ -190,7 +209,7 @@ const SKILLS_ICONS: Record<string, any> = {
                     )
                   })}
                 </ul>
-)}
+                )}
               </div>
             </div>
         </div>
